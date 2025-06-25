@@ -1,0 +1,26 @@
+prd:
+  catalog_name: prd
+  schema_name: olalubic
+acc:
+  catalog_name: acc
+  schema_name: olalubic
+dev:
+  catalog_name: dev
+  schema_name: olalubic
+
+parameters:
+  learning_rate: 0.01
+
+id_cols:
+ - xxx
+
+num_features:
+  - bbb
+
+date_features:
+  - aaa
+
+cat_features:
+  - vvv
+
+target: status

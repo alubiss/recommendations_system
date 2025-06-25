@@ -1,0 +1,9 @@
+bundle:
+  name: alubiss-recommender-system
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-2eabcf91-a935.cloud.databricks.com/
