@@ -1,0 +1,11 @@
+[DEFAULT]
+# Replace with your Databricks workspace host (include https://)
+host = https://<your-databricks-workspace-host>
+# Replace with a personal access token created in Databricks (do NOT commit real tokens)
+token = dapiXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# Usage:
+# 1) Copy this file to your home directory as ~/.databrickscfg:
+#    cp databrickscfg.template ~/.databrickscfg
+# 2) Edit ~/.databrickscfg and replace host and token with real values.
+# 3) Restart VS Code and open the Databricks view — the extension will use the DEFAULT profile.
