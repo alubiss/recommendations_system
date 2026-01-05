@@ -1,4 +1,4 @@
-exclude: '^(notebooks|scripts|tests/databricks_tests|Taskfiles\.md)/.*'
+exclude: '^(notebooks|typings|scripts|tests/databricks_tests|Taskfiles\.md)/.*'
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
@@ -20,4 +20,6 @@ repos:
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix, --show-fixes]
+        exclude: '^(notebooks|typings|scripts|tests/databricks_tests|Taskfiles\.md)/.*'
       - id: ruff-format
+        exclude: '^(notebooks|typings|scripts|tests/databricks_tests|Taskfiles\.md)/.*'

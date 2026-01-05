@@ -11,7 +11,7 @@ getpip.py
 *.so
 
 # Folders
-# data/
+../data/*
 
 # Distribution / packaging
 .Python
